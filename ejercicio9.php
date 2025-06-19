@@ -4,5 +4,10 @@
 //Complejidad: BAJA (1 punto)
 
 function generarTablaMultiplicar($num) {
-    // Tu código aquí
+    for ($f = 1; $f <= 10; $f++) {
+        $res = $num * $f;
+        echo $res ."<br>";
+    }
+
 }
+generarTablaMultiplicar(3);

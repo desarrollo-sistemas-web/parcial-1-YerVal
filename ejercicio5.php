@@ -6,5 +6,10 @@
 //🔍 Hint: Puedes usar un bucle para iterar sobre el arreglo y sumar los elementos.
 
 function suma($numeros) {
-    // Tu código aquí
+    $a = array(1,6,3,9);
+    $f = 5;
+    while ($f>5){
+        $a;
+    }
+        
 }
