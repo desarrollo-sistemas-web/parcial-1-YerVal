@@ -4,5 +4,18 @@
 //Complejidad: MEDIA (2 puntos)
 
 function esPar($num) {
-    // Tu código aquí
+    $num = 2;
+    if ( $num % 2 == 0) {
+        echo "true";
+    } else {
+        echo "false";
+    }
+    switch (true) {
+        case ($num%2==0):
+            echo "true";
+            break;
+        case ($num%2!=0):
+            echo "false";
+            break;
+    }
 }
